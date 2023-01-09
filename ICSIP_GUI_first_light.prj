@@ -1,0 +1,181 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="4067221844" file="/home/iocadmin/Documents/MATLAB/ICS-IP_GUI_PRODUCTION_camera_modified/ICSIP_GUI_first_light.prj" location="/home/iocadmin/Documents/MATLAB/ICS-IP_GUI_PRODUCTION_camera_modified" name="ICSIP_GUI_first_light" target="target.mlapps" target-name="Package App">
+    <param.appname>ICSIP_GUI_first_light</param.appname>
+    <param.authnamewatermark />
+    <param.email />
+    <param.company />
+    <param.icon />
+    <param.icons />
+    <param.summary />
+    <param.description />
+    <param.screenshot>/tmp/tp0874474c_8066_417b_9b98_e7e8f9ffeafc.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms>
+      <item>glnxa64</item>
+    </param.platforms>
+    <param.output>${PROJECT_ROOT}</param.output>
+    <param.guid>17365052-e7da-4704-bf1d-791f2bd28926</param.guid>
+    <unset>
+      <param.authnamewatermark />
+      <param.email />
+      <param.company />
+      <param.icon />
+      <param.icons />
+      <param.summary />
+      <param.description />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}/ICSIP_GUI_first_xrays.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}/Camera_Control_GUI.mlapp</file>
+      <file>${PROJECT_ROOT}/Camera_Panel.mlapp</file>
+      <file>${PROJECT_ROOT}/E-beam Entrance YAG.png</file>
+      <file>${PROJECT_ROOT}/E-beam Exit YAG.png</file>
+      <file>${PROJECT_ROOT}/E_beam_Entrance_YAG.mlapp</file>
+      <file>${PROJECT_ROOT}/E_beam_Exit_YAG.mlapp</file>
+      <file>${PROJECT_ROOT}/Free divergent first xrays.png</file>
+      <file>${PROJECT_ROOT}/Free_Divergent_YAG_first_light.mlapp</file>
+      <file>${PROJECT_ROOT}/ICSIP combined laser dashboard.png</file>
+      <file>${PROJECT_ROOT}/IR entrance lens.png</file>
+      <file>${PROJECT_ROOT}/IR entrance mirror.png</file>
+      <file>${PROJECT_ROOT}/IR exit lens.png</file>
+      <file>${PROJECT_ROOT}/IR exit mirror.png</file>
+      <file>${PROJECT_ROOT}/IR_entrance_lens.mlapp</file>
+      <file>${PROJECT_ROOT}/IR_entrance_mirror_first_xrays.mlapp</file>
+      <file>${PROJECT_ROOT}/IR_exit_lens.mlapp</file>
+      <file>${PROJECT_ROOT}/IR_exit_mirror_first_xrays.mlapp</file>
+      <file>${PROJECT_ROOT}/ISSI_GUI.mlapp</file>
+      <file>${PROJECT_ROOT}/ISSI_edit_presets.mlapp</file>
+      <file>${PROJECT_ROOT}/Interaction point YAG.png</file>
+      <file>${PROJECT_ROOT}/Interaction_point_YAG.mlapp</file>
+      <file>${PROJECT_ROOT}/LED_GUI.mlapp</file>
+      <file>${PROJECT_ROOT}/Laser_dashboard_first_xrays.mlapp</file>
+      <file>${PROJECT_ROOT}/MORE_GUI.mlapp</file>
+      <file>${PROJECT_ROOT}/embed_GUI.mlapp</file>
+      <file>${PROJECT_ROOT}/first_light_main.png</file>
+      <file>${PROJECT_ROOT}/left_arrow.png</file>
+      <file>${PROJECT_ROOT}/right_arrow.png</file>
+      <file>/usr/local/EPICS_NEW/labca_3_7_2/bin/linux-x86_64/labca/lcaGet.m</file>
+      <file>/usr/local/EPICS_NEW/labca_3_7_2/bin/linux-x86_64/labca/lcaGet.mexa64</file>
+      <file>/usr/local/EPICS_NEW/labca_3_7_2/bin/linux-x86_64/labca/lcaGetRetryCount.m</file>
+      <file>/usr/local/EPICS_NEW/labca_3_7_2/bin/linux-x86_64/labca/lcaGetRetryCount.mexa64</file>
+      <file>/usr/local/EPICS_NEW/labca_3_7_2/bin/linux-x86_64/labca/lcaGetStatus.m</file>
+      <file>/usr/local/EPICS_NEW/labca_3_7_2/bin/linux-x86_64/labca/lcaGetStatus.mexa64</file>
+      <file>/usr/local/EPICS_NEW/labca_3_7_2/bin/linux-x86_64/labca/lcaLastError.m</file>
+      <file>/usr/local/EPICS_NEW/labca_3_7_2/bin/linux-x86_64/labca/lcaLastError.mexa64</file>
+      <file>/usr/local/EPICS_NEW/labca_3_7_2/bin/linux-x86_64/labca/lcaNewMonitorValue.m</file>
+      <file>/usr/local/EPICS_NEW/labca_3_7_2/bin/linux-x86_64/labca/lcaNewMonitorValue.mexa64</file>
+      <file>/usr/local/EPICS_NEW/labca_3_7_2/bin/linux-x86_64/labca/lcaPut.m</file>
+      <file>/usr/local/EPICS_NEW/labca_3_7_2/bin/linux-x86_64/labca/lcaPut.mexa64</file>
+      <file>/usr/local/EPICS_NEW/labca_3_7_2/bin/linux-x86_64/labca/lcaPutNoWait.m</file>
+      <file>/usr/local/EPICS_NEW/labca_3_7_2/bin/linux-x86_64/labca/lcaPutNoWait.mexa64</file>
+      <file>/usr/local/EPICS_NEW/labca_3_7_2/bin/linux-x86_64/labca/lcaSetMonitor.m</file>
+      <file>/usr/local/EPICS_NEW/labca_3_7_2/bin/linux-x86_64/labca/lcaSetMonitor.mexa64</file>
+      <file>/usr/local/EPICS_NEW/labca_3_7_2/bin/linux-x86_64/labca/lcaSetRetryCount.mexa64</file>
+      <file>/usr/local/cxls/MatlabHLA/beamfits/control_ampSet.m</file>
+      <file>/usr/local/cxls/MatlabHLA/beamfits/control_deviceGet.m</file>
+      <file>/usr/local/cxls/MatlabHLA/beamfits/control_energyNames.m</file>
+      <file>/usr/local/cxls/MatlabHLA/beamfits/control_klysName.m</file>
+      <file>/usr/local/cxls/MatlabHLA/beamfits/control_klysStatGet.m</file>
+      <file>/usr/local/cxls/MatlabHLA/beamfits/control_magnetCalCXLS.m</file>
+      <file>/usr/local/cxls/MatlabHLA/beamfits/control_magnetCalPAL.m</file>
+      <file>/usr/local/cxls/MatlabHLA/beamfits/control_magnetCoefCXLS.m</file>
+      <file>/usr/local/cxls/MatlabHLA/beamfits/control_magnetCoefPAL.m</file>
+      <file>/usr/local/cxls/MatlabHLA/beamfits/control_magnetGet.m</file>
+      <file>/usr/local/cxls/MatlabHLA/beamfits/control_magnetLGPSGet.m</file>
+      <file>/usr/local/cxls/MatlabHLA/beamfits/control_magnetLGPSMap.m</file>
+      <file>/usr/local/cxls/MatlabHLA/beamfits/control_magnetNameLGPS.m</file>
+      <file>/usr/local/cxls/MatlabHLA/beamfits/control_magnetQuadTrimGet.m</file>
+      <file>/usr/local/cxls/MatlabHLA/beamfits/control_magnetSet.m</file>
+      <file>/usr/local/cxls/MatlabHLA/beamfits/control_phaseGet.m</file>
+      <file>/usr/local/cxls/MatlabHLA/beamfits/control_phaseNames.m</file>
+      <file>/usr/local/cxls/MatlabHLA/beamfits/control_phaseSet.m</file>
+      <file>/usr/local/cxls/MatlabHLA/beamfits/epicsSimul_status.m</file>
+      <file>/usr/local/cxls/MatlabHLA/beamfits/lcaGetSmart.m</file>
+      <file>/usr/local/cxls/MatlabHLA/beamfits/lcaPutSmart.m</file>
+      <file>/usr/local/cxls/MatlabHLA/beamfits/model_beamLineCXLS.m</file>
+      <file>/usr/local/cxls/MatlabHLA/beamfits/model_beamLineCXLS_Accl.m</file>
+      <file>/usr/local/cxls/MatlabHLA/beamfits/model_beamSize.m</file>
+      <file>/usr/local/cxls/MatlabHLA/beamfits/model_energyFudge.m</file>
+      <file>/usr/local/cxls/MatlabHLA/beamfits/model_energyKlys.m</file>
+      <file>/usr/local/cxls/MatlabHLA/beamfits/model_energySetPoints.m</file>
+      <file>/usr/local/cxls/MatlabHLA/beamfits/model_init.m</file>
+      <file>/usr/local/cxls/MatlabHLA/beamfits/model_k1Get.m</file>
+      <file>/usr/local/cxls/MatlabHLA/beamfits/model_magnetIsGeV.m</file>
+      <file>/usr/local/cxls/MatlabHLA/beamfits/model_nameConvert.m</file>
+      <file>/usr/local/cxls/MatlabHLA/beamfits/model_nameList.m</file>
+      <file>/usr/local/cxls/MatlabHLA/beamfits/model_nameListCXLS.m</file>
+      <file>/usr/local/cxls/MatlabHLA/beamfits/model_nameListFACET.m</file>
+      <file>/usr/local/cxls/MatlabHLA/beamfits/model_nameListPAL.m</file>
+      <file>/usr/local/cxls/MatlabHLA/beamfits/model_nameRegion.m</file>
+      <file>/usr/local/cxls/MatlabHLA/beamfits/model_nameSplit.m</file>
+      <file>/usr/local/cxls/MatlabHLA/beamfits/model_nameXAL.m</file>
+      <file>/usr/local/cxls/MatlabHLA/beamfits/model_rMatElement.m</file>
+      <file>/usr/local/cxls/MatlabHLA/beamfits/model_rMatElements.m</file>
+      <file>/usr/local/cxls/MatlabHLA/beamfits/model_rMatGet.m</file>
+      <file>/usr/local/cxls/MatlabHLA/beamfits/model_rMatModel.m</file>
+      <file>/usr/local/cxls/MatlabHLA/beamfits/model_sigma2Twiss.m</file>
+      <file>/usr/local/cxls/MatlabHLA/beamfits/model_twiss2Sigma.m</file>
+      <file>/usr/local/cxls/MatlabHLA/beamfits/model_twissB.m</file>
+      <file>/usr/local/cxls/MatlabHLA/beamfits/model_twissGet.m</file>
+      <file>/usr/local/cxls/MatlabHLA/beamfits/model_twissPhase.m</file>
+      <file>/usr/local/cxls/MatlabHLA/beamfits/model_twissTrans.m</file>
+      <file>/usr/local/cxls/MatlabHLA/beamfits/util_dataSave.m</file>
+      <file>/usr/local/cxls/MatlabHLA/beamfits/util_parseOptions.m</file>
+      <file>/usr/local/cxls/MatlabHLA/beamfits/util_parseParams.m</file>
+      <file>/usr/local/cxls/MatlabHLA/beamfits/util_phaseBranch.m</file>
+      <file>/usr/local/cxls/MatlabHLA/beamfits/util_plotInit.m</file>
+      <file>/usr/local/cxls/MatlabHLA/lcaWrapper/aidainit.m</file>
+      <file>/usr/local/cxls/MatlabHLA/profmon/profmon_bayer2RGB.m</file>
+      <file>/usr/local/cxls/MatlabHLA/profmon/profmon_coordTrans.m</file>
+      <file>/usr/local/cxls/MatlabHLA/profmon/profmon_grab.m</file>
+      <file>/usr/local/cxls/MatlabHLA/profmon/profmon_imgFlip.m</file>
+      <file>/usr/local/cxls/MatlabHLA/profmon/profmon_imgPlot.m</file>
+      <file>/usr/local/cxls/MatlabHLA/profmon/profmon_names.m</file>
+      <file>/usr/local/cxls/MatlabHLA/profmon/profmon_propNames.m</file>
+      <file>/usr/local/cxls/MatlabHLA/profmon/profmon_simulCreate.m</file>
+      <file>/usr/local/cxls/MatlabHLA/profmon/profmon_simulData.m</file>
+      <file>/usr/local/cxls/MatlabHLA/src/aidaget.m</file>
+      <file>/usr/local/cxls/MatlabHLA/src/disp_log.m</file>
+      <file>/usr/local/cxls/MatlabHLA/src/getLogger.m</file>
+      <file>/usr/local/cxls/MatlabHLA/src/getSystem.m</file>
+      <file>/usr/local/cxls/MatlabHLA/src/lca2matlabTime.m</file>
+      <file>/usr/local/cxls/MatlabHLA/src/lcaTs2PulseId.m</file>
+      <file>/usr/local/cxls/MatlabHLA/src/put2log.m</file>
+    </fileset.depfun>
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="/home/iocadmin/Documents/MATLAB" name="ICS-IP_GUI_PRODUCTION_camera_modified" optional="false">/home/iocadmin/Documents/MATLAB/ICS-IP_GUI_PRODUCTION_camera_modified</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>/usr/local/MATLAB/R2020b</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>true</unix>
+      <mac>false</mac>
+      <windows>false</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>true</linux>
+      <solaris>false</solaris>
+      <osver>4.18.0-425.3.1.el8.x86_64</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>glnxa64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
