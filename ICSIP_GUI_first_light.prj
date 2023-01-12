@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="3795015182" file="/home/labuser/Documents/MATLAB/ICS-IP_GUI_PRODUCTION/ICSIP_GUI_first_light.prj" location="/home/labuser/Documents/MATLAB/ICS-IP_GUI_PRODUCTION" name="ICSIP_GUI_first_light" target="target.mlapps" target-name="Package App">
+  <configuration build-checksum="2446698399" file="/home/labuser/Documents/MATLAB/ICS-IP_GUI_PRODUCTION/ICSIP_GUI_first_light.prj" location="/home/labuser/Documents/MATLAB/ICS-IP_GUI_PRODUCTION" name="ICSIP_GUI_first_light" target="target.mlapps" target-name="Package App">
     <param.appname>ICSIP_GUI_first_light</param.appname>
     <param.authnamewatermark />
     <param.email />
@@ -8,7 +8,7 @@
     <param.icons />
     <param.summary />
     <param.description />
-    <param.screenshot>/tmp/tp357cade0_7e6e_41e9_9e50_5d102decfe0d.png</param.screenshot>
+    <param.screenshot>/tmp/tp99c8bcb4_3433_47ed_8f85_c92732705770.png</param.screenshot>
     <param.version>1.0</param.version>
     <param.products.name />
     <param.products.id />
