@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="2446698399" file="/home/labuser/Documents/MATLAB/ICS-IP_GUI_PRODUCTION/ICSIP_GUI_first_light.prj" location="/home/labuser/Documents/MATLAB/ICS-IP_GUI_PRODUCTION" name="ICSIP_GUI_first_light" target="target.mlapps" target-name="Package App">
+  <configuration build-checksum="1920200673" file="/home/labuser/Documents/MATLAB/ICS-IP_GUI_PRODUCTION/ICSIP_GUI_first_light.prj" location="/home/labuser/Documents/MATLAB/ICS-IP_GUI_PRODUCTION" name="ICSIP_GUI_first_light" target="target.mlapps" target-name="Package App">
     <param.appname>ICSIP_GUI_first_light</param.appname>
     <param.authnamewatermark />
     <param.email />
@@ -8,7 +8,7 @@
     <param.icons />
     <param.summary />
     <param.description />
-    <param.screenshot>/tmp/tp99c8bcb4_3433_47ed_8f85_c92732705770.png</param.screenshot>
+    <param.screenshot>/tmp/tpd4142d1d_aeda_4d95_9dfa_1f9f8e298205.png</param.screenshot>
     <param.version>1.0</param.version>
     <param.products.name />
     <param.products.id />
@@ -36,6 +36,76 @@
       <file>${PROJECT_ROOT}/ICSIP_GUI_first_xrays.mlapp</file>
     </fileset.main>
     <fileset.depfun>
+      <file>/cxls/sw/MatlabHLA/beamfits/control_ampSet.m</file>
+      <file>/cxls/sw/MatlabHLA/beamfits/control_deviceGet.m</file>
+      <file>/cxls/sw/MatlabHLA/beamfits/control_energyNames.m</file>
+      <file>/cxls/sw/MatlabHLA/beamfits/control_klysName.m</file>
+      <file>/cxls/sw/MatlabHLA/beamfits/control_klysStatGet.m</file>
+      <file>/cxls/sw/MatlabHLA/beamfits/control_magnetCalCXLS.m</file>
+      <file>/cxls/sw/MatlabHLA/beamfits/control_magnetCalPAL.m</file>
+      <file>/cxls/sw/MatlabHLA/beamfits/control_magnetCoefCXLS.m</file>
+      <file>/cxls/sw/MatlabHLA/beamfits/control_magnetCoefPAL.m</file>
+      <file>/cxls/sw/MatlabHLA/beamfits/control_magnetGet.m</file>
+      <file>/cxls/sw/MatlabHLA/beamfits/control_magnetLGPSGet.m</file>
+      <file>/cxls/sw/MatlabHLA/beamfits/control_magnetLGPSMap.m</file>
+      <file>/cxls/sw/MatlabHLA/beamfits/control_magnetNameLGPS.m</file>
+      <file>/cxls/sw/MatlabHLA/beamfits/control_magnetQuadTrimGet.m</file>
+      <file>/cxls/sw/MatlabHLA/beamfits/control_magnetSet.m</file>
+      <file>/cxls/sw/MatlabHLA/beamfits/control_phaseGet.m</file>
+      <file>/cxls/sw/MatlabHLA/beamfits/control_phaseNames.m</file>
+      <file>/cxls/sw/MatlabHLA/beamfits/control_phaseSet.m</file>
+      <file>/cxls/sw/MatlabHLA/beamfits/epicsSimul_status.m</file>
+      <file>/cxls/sw/MatlabHLA/beamfits/lcaGetSmart.m</file>
+      <file>/cxls/sw/MatlabHLA/beamfits/lcaPutSmart.m</file>
+      <file>/cxls/sw/MatlabHLA/beamfits/model_beamLineCXLS.m</file>
+      <file>/cxls/sw/MatlabHLA/beamfits/model_beamLineCXLS_Accl.m</file>
+      <file>/cxls/sw/MatlabHLA/beamfits/model_beamSize.m</file>
+      <file>/cxls/sw/MatlabHLA/beamfits/model_energyFudge.m</file>
+      <file>/cxls/sw/MatlabHLA/beamfits/model_energyKlys.m</file>
+      <file>/cxls/sw/MatlabHLA/beamfits/model_energySetPoints.m</file>
+      <file>/cxls/sw/MatlabHLA/beamfits/model_init.m</file>
+      <file>/cxls/sw/MatlabHLA/beamfits/model_k1Get.m</file>
+      <file>/cxls/sw/MatlabHLA/beamfits/model_magnetIsGeV.m</file>
+      <file>/cxls/sw/MatlabHLA/beamfits/model_nameConvert.m</file>
+      <file>/cxls/sw/MatlabHLA/beamfits/model_nameList.m</file>
+      <file>/cxls/sw/MatlabHLA/beamfits/model_nameListCXLS.m</file>
+      <file>/cxls/sw/MatlabHLA/beamfits/model_nameListFACET.m</file>
+      <file>/cxls/sw/MatlabHLA/beamfits/model_nameListPAL.m</file>
+      <file>/cxls/sw/MatlabHLA/beamfits/model_nameRegion.m</file>
+      <file>/cxls/sw/MatlabHLA/beamfits/model_nameSplit.m</file>
+      <file>/cxls/sw/MatlabHLA/beamfits/model_nameXAL.m</file>
+      <file>/cxls/sw/MatlabHLA/beamfits/model_rMatElement.m</file>
+      <file>/cxls/sw/MatlabHLA/beamfits/model_rMatElements.m</file>
+      <file>/cxls/sw/MatlabHLA/beamfits/model_rMatGet.m</file>
+      <file>/cxls/sw/MatlabHLA/beamfits/model_rMatModel.m</file>
+      <file>/cxls/sw/MatlabHLA/beamfits/model_sigma2Twiss.m</file>
+      <file>/cxls/sw/MatlabHLA/beamfits/model_twiss2Sigma.m</file>
+      <file>/cxls/sw/MatlabHLA/beamfits/model_twissB.m</file>
+      <file>/cxls/sw/MatlabHLA/beamfits/model_twissGet.m</file>
+      <file>/cxls/sw/MatlabHLA/beamfits/model_twissPhase.m</file>
+      <file>/cxls/sw/MatlabHLA/beamfits/model_twissTrans.m</file>
+      <file>/cxls/sw/MatlabHLA/beamfits/util_dataSave.m</file>
+      <file>/cxls/sw/MatlabHLA/beamfits/util_parseOptions.m</file>
+      <file>/cxls/sw/MatlabHLA/beamfits/util_parseParams.m</file>
+      <file>/cxls/sw/MatlabHLA/beamfits/util_phaseBranch.m</file>
+      <file>/cxls/sw/MatlabHLA/beamfits/util_plotInit.m</file>
+      <file>/cxls/sw/MatlabHLA/lcaWrapper/aidainit.m</file>
+      <file>/cxls/sw/MatlabHLA/profmon/profmon_bayer2RGB.m</file>
+      <file>/cxls/sw/MatlabHLA/profmon/profmon_coordTrans.m</file>
+      <file>/cxls/sw/MatlabHLA/profmon/profmon_grab.m</file>
+      <file>/cxls/sw/MatlabHLA/profmon/profmon_imgFlip.m</file>
+      <file>/cxls/sw/MatlabHLA/profmon/profmon_imgPlot.m</file>
+      <file>/cxls/sw/MatlabHLA/profmon/profmon_names.m</file>
+      <file>/cxls/sw/MatlabHLA/profmon/profmon_propNames.m</file>
+      <file>/cxls/sw/MatlabHLA/profmon/profmon_simulCreate.m</file>
+      <file>/cxls/sw/MatlabHLA/profmon/profmon_simulData.m</file>
+      <file>/cxls/sw/MatlabHLA/src/aidaget.m</file>
+      <file>/cxls/sw/MatlabHLA/src/disp_log.m</file>
+      <file>/cxls/sw/MatlabHLA/src/getLogger.m</file>
+      <file>/cxls/sw/MatlabHLA/src/getSystem.m</file>
+      <file>/cxls/sw/MatlabHLA/src/lca2matlabTime.m</file>
+      <file>/cxls/sw/MatlabHLA/src/lcaTs2PulseId.m</file>
+      <file>/cxls/sw/MatlabHLA/src/put2log.m</file>
       <file>${PROJECT_ROOT}/Camera_Control_GUI.mlapp</file>
       <file>${PROJECT_ROOT}/Camera_Panel.mlapp</file>
       <file>${PROJECT_ROOT}/E-beam Entrance YAG.png</file>
@@ -81,76 +151,6 @@
       <file>/usr/local/EPICS_NEW/labca_3_7_2/bin/linux-x86_64/labca/lcaSetMonitor.m</file>
       <file>/usr/local/EPICS_NEW/labca_3_7_2/bin/linux-x86_64/labca/lcaSetMonitor.mexa64</file>
       <file>/usr/local/EPICS_NEW/labca_3_7_2/bin/linux-x86_64/labca/lcaSetRetryCount.mexa64</file>
-      <file>/usr/local/cxls/MatlabHLA/beamfits/control_ampSet.m</file>
-      <file>/usr/local/cxls/MatlabHLA/beamfits/control_deviceGet.m</file>
-      <file>/usr/local/cxls/MatlabHLA/beamfits/control_energyNames.m</file>
-      <file>/usr/local/cxls/MatlabHLA/beamfits/control_klysName.m</file>
-      <file>/usr/local/cxls/MatlabHLA/beamfits/control_klysStatGet.m</file>
-      <file>/usr/local/cxls/MatlabHLA/beamfits/control_magnetCalCXLS.m</file>
-      <file>/usr/local/cxls/MatlabHLA/beamfits/control_magnetCalPAL.m</file>
-      <file>/usr/local/cxls/MatlabHLA/beamfits/control_magnetCoefCXLS.m</file>
-      <file>/usr/local/cxls/MatlabHLA/beamfits/control_magnetCoefPAL.m</file>
-      <file>/usr/local/cxls/MatlabHLA/beamfits/control_magnetGet.m</file>
-      <file>/usr/local/cxls/MatlabHLA/beamfits/control_magnetLGPSGet.m</file>
-      <file>/usr/local/cxls/MatlabHLA/beamfits/control_magnetLGPSMap.m</file>
-      <file>/usr/local/cxls/MatlabHLA/beamfits/control_magnetNameLGPS.m</file>
-      <file>/usr/local/cxls/MatlabHLA/beamfits/control_magnetQuadTrimGet.m</file>
-      <file>/usr/local/cxls/MatlabHLA/beamfits/control_magnetSet.m</file>
-      <file>/usr/local/cxls/MatlabHLA/beamfits/control_phaseGet.m</file>
-      <file>/usr/local/cxls/MatlabHLA/beamfits/control_phaseNames.m</file>
-      <file>/usr/local/cxls/MatlabHLA/beamfits/control_phaseSet.m</file>
-      <file>/usr/local/cxls/MatlabHLA/beamfits/epicsSimul_status.m</file>
-      <file>/usr/local/cxls/MatlabHLA/beamfits/lcaGetSmart.m</file>
-      <file>/usr/local/cxls/MatlabHLA/beamfits/lcaPutSmart.m</file>
-      <file>/usr/local/cxls/MatlabHLA/beamfits/model_beamLineCXLS.m</file>
-      <file>/usr/local/cxls/MatlabHLA/beamfits/model_beamLineCXLS_Accl.m</file>
-      <file>/usr/local/cxls/MatlabHLA/beamfits/model_beamSize.m</file>
-      <file>/usr/local/cxls/MatlabHLA/beamfits/model_energyFudge.m</file>
-      <file>/usr/local/cxls/MatlabHLA/beamfits/model_energyKlys.m</file>
-      <file>/usr/local/cxls/MatlabHLA/beamfits/model_energySetPoints.m</file>
-      <file>/usr/local/cxls/MatlabHLA/beamfits/model_init.m</file>
-      <file>/usr/local/cxls/MatlabHLA/beamfits/model_k1Get.m</file>
-      <file>/usr/local/cxls/MatlabHLA/beamfits/model_magnetIsGeV.m</file>
-      <file>/usr/local/cxls/MatlabHLA/beamfits/model_nameConvert.m</file>
-      <file>/usr/local/cxls/MatlabHLA/beamfits/model_nameList.m</file>
-      <file>/usr/local/cxls/MatlabHLA/beamfits/model_nameListCXLS.m</file>
-      <file>/usr/local/cxls/MatlabHLA/beamfits/model_nameListFACET.m</file>
-      <file>/usr/local/cxls/MatlabHLA/beamfits/model_nameListPAL.m</file>
-      <file>/usr/local/cxls/MatlabHLA/beamfits/model_nameRegion.m</file>
-      <file>/usr/local/cxls/MatlabHLA/beamfits/model_nameSplit.m</file>
-      <file>/usr/local/cxls/MatlabHLA/beamfits/model_nameXAL.m</file>
-      <file>/usr/local/cxls/MatlabHLA/beamfits/model_rMatElement.m</file>
-      <file>/usr/local/cxls/MatlabHLA/beamfits/model_rMatElements.m</file>
-      <file>/usr/local/cxls/MatlabHLA/beamfits/model_rMatGet.m</file>
-      <file>/usr/local/cxls/MatlabHLA/beamfits/model_rMatModel.m</file>
-      <file>/usr/local/cxls/MatlabHLA/beamfits/model_sigma2Twiss.m</file>
-      <file>/usr/local/cxls/MatlabHLA/beamfits/model_twiss2Sigma.m</file>
-      <file>/usr/local/cxls/MatlabHLA/beamfits/model_twissB.m</file>
-      <file>/usr/local/cxls/MatlabHLA/beamfits/model_twissGet.m</file>
-      <file>/usr/local/cxls/MatlabHLA/beamfits/model_twissPhase.m</file>
-      <file>/usr/local/cxls/MatlabHLA/beamfits/model_twissTrans.m</file>
-      <file>/usr/local/cxls/MatlabHLA/beamfits/util_dataSave.m</file>
-      <file>/usr/local/cxls/MatlabHLA/beamfits/util_parseOptions.m</file>
-      <file>/usr/local/cxls/MatlabHLA/beamfits/util_parseParams.m</file>
-      <file>/usr/local/cxls/MatlabHLA/beamfits/util_phaseBranch.m</file>
-      <file>/usr/local/cxls/MatlabHLA/beamfits/util_plotInit.m</file>
-      <file>/usr/local/cxls/MatlabHLA/lcaWrapper/aidainit.m</file>
-      <file>/usr/local/cxls/MatlabHLA/profmon/profmon_bayer2RGB.m</file>
-      <file>/usr/local/cxls/MatlabHLA/profmon/profmon_coordTrans.m</file>
-      <file>/usr/local/cxls/MatlabHLA/profmon/profmon_grab.m</file>
-      <file>/usr/local/cxls/MatlabHLA/profmon/profmon_imgFlip.m</file>
-      <file>/usr/local/cxls/MatlabHLA/profmon/profmon_imgPlot.m</file>
-      <file>/usr/local/cxls/MatlabHLA/profmon/profmon_names.m</file>
-      <file>/usr/local/cxls/MatlabHLA/profmon/profmon_propNames.m</file>
-      <file>/usr/local/cxls/MatlabHLA/profmon/profmon_simulCreate.m</file>
-      <file>/usr/local/cxls/MatlabHLA/profmon/profmon_simulData.m</file>
-      <file>/usr/local/cxls/MatlabHLA/src/aidaget.m</file>
-      <file>/usr/local/cxls/MatlabHLA/src/disp_log.m</file>
-      <file>/usr/local/cxls/MatlabHLA/src/getLogger.m</file>
-      <file>/usr/local/cxls/MatlabHLA/src/getSystem.m</file>
-      <file>/usr/local/cxls/MatlabHLA/src/lca2matlabTime.m</file>
-      <file>/usr/local/cxls/MatlabHLA/src/lcaTs2PulseId.m</file>
-      <file>/usr/local/cxls/MatlabHLA/src/put2log.m</file>
     </fileset.depfun>
     <fileset.resources />
     <fileset.package />
